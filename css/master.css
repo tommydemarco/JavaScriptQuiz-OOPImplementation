@@ -1,6 +1,8 @@
 /*=== GLOBAL CHANGES ===*/
 h1, h2, h3, h4 {font-weight:300;}
 
+#navbarSupportedContent ul li a {font-weight:400}
+
 .navbar {
     transition: all 0.4s;
 }
@@ -75,3 +77,11 @@ body {background-image: url('../img/coding-background.jpg'); background-size: co
     right: 0;
     transform: translateY(-50%);
   }
+
+
+/*=== button customization ===*/
+#m-container .btn-custom-1 {padding: 10px 40px;border-radius: 0px;color: white;background: #7f8c8d;}
+#m-container .btn-custom-1:hover {background: #95a5a6; cursor: pointer;}
+#m-container .btn-custom-2 {padding: 10px 40px;border-radius: 0px;color: white;background: #27ae60;}
+#m-container .btn-custom-2:hover {background: #2ecc71; cursor: pointer;}
+#m-container .test-button {width:100%}
