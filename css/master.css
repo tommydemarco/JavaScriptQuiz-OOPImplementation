@@ -1,7 +1,8 @@
 /*=== GLOBAL CHANGES ===*/
 h1, h2, h3, h4 {font-weight:300;}
-
 #navbarSupportedContent ul li a {font-weight:400}
+.table-responsive {overflow-x: visible}
+.feedback-right {float:right}
 
 .navbar {
     transition: all 0.4s;
@@ -9,6 +10,7 @@ h1, h2, h3, h4 {font-weight:300;}
 
 .navbar .nav-link {
     color: #fff;
+
 }
 
 .navbar .nav-link:hover,
@@ -19,6 +21,8 @@ h1, h2, h3, h4 {font-weight:300;}
 
 .navbar .navbar-brand {
     color: #fff;
+    font-family: 'Squada One', cursive;
+    font-size: 35px;
 }
 
 body {background-image: url('../img/coding-background.jpg'); background-size: cover; background-attachment: fixed;}
@@ -85,3 +89,14 @@ body {background-image: url('../img/coding-background.jpg'); background-size: co
 #m-container .btn-custom-2 {padding: 10px 40px;border-radius: 0px;color: white;background: #27ae60;}
 #m-container .btn-custom-2:hover {background: #2ecc71; cursor: pointer;}
 #m-container .test-button {width:100%}
+#m-container .btn-submit-custom {padding: 10px 40px;border-radius: 0px;color: white;background: #2980b9;border: 0px;}
+#m-container .btn-submit-custom:hover {background: #3498db; cursor: pointer;}
+#m-container .btn-submit-custom:active {border: 0px;}
+#button-navigation {width:fit-content; float:right}
+
+/*=== results interface ===*/
+#results-interface {display:none}
+.question-inline, .esit-results {display: inline-block;}
+.warning {color:#f1c40f}
+.success {color:#27ae60}
+.error {color:#e74c3c}

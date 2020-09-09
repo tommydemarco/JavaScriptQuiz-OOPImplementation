@@ -10,7 +10,7 @@
     
     <div class="row pt-5">
       <div class="col-12 text-center">
-        <h1 class="text-light pt-3">Question 1</h1>
+        <h1 class="text-light pt-4">OOP approaches Quiz</h1>
         <h4 class="text-light">Object Oriented JavaScript</h4>
       </div>
       <div class="col-lg-11 mx-auto">
@@ -21,22 +21,33 @@
                           
                           <!-- form to add a new recipe -->
                           <div class="table-responsive">
+                            <!-- results part -->
+                            <div id="results-interface">
+                                <h2 class="question-text">Your Quiz results: </h2>
+                                <div> <p class="question-inline">Question 1: </p> <p class="esit-results"></p></div>
+                                <div> <p class="question-inline">Question 2: </p> <p class="esit-results"></p></div>
+                                <div> <p class="question-inline">Question 3: </p> <p class="esit-results"></p></div>
+                                <div> <p class="question-inline">Question 4: </p> <p class="esit-results"></p></div>
+
+                                <div class="mt-3">
+                                    <p>
+                                        You can click the previous button to go back and improve your score!
+                                    </p>
+                                </div>
+                            </div>
                             <!-- fill in question -->
                             <div class="question hidden-question" id="fill-in">
                               <div>
                                   <h2 class="question-text"></h2>
                                   <textarea class="fill-in" id="q01_ans"></textarea>
-                                  <button class="fill-in-submit btn btn-primary"> Submit </button>
-                              </div>
-                              <div class="feedback no-answer">
+                                  <button class="fill-in-submit btn-submit-custom mt-4"> Submit </button>
+                                  <div class="feedback correct"></div>
+                                  <div class="feedback incorrect"></div>
+                                  <div class="feedback no-answer feedback-right">
                                   <p></p>
                               </div>
-                              <div class="feedback correct">
-                                  
                               </div>
-                              <div class="feedback incorrect">
-                                  
-                              </div>
+                              
                             </div>
                             <!-- multiple choice question -->
                             <div class="question hidden-question" id="multi-choice">
@@ -55,7 +66,7 @@
                                         <input type="radio" name="q4" id="q4_4"/>
                                         <label for="q4_4" id="q4_4_label"></label>
                                     </div>
-                                    <button class="fill-in-submit btn btn-primary"> Submit </button>
+                                    <button class="fill-in-submit btn-submit-custom mt-4"> Submit </button>
                                 </div>
                                 <div class="feedback no-answer">
                                     
@@ -67,9 +78,10 @@
                                     
                                 </div>
                             </div>
-
-                            <a class="navigation btn-prev btn btn-custom-1 mr-2">Previous</a>
-                            <a class="navigation btn-next btn btn-custom-2">Next</a>
+                            <div id="button-navigation" class="mt-2">
+                                <a class="navigation btn-prev btn btn-custom-1 mr-2">Previous</a>
+                                <a class="navigation btn-next btn btn-custom-2">Next</a>
+                            </div>
                           </div>
 
                       </div>
