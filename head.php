@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/master.css">
     <!-- master css -->
     <link rel="stylesheet" href="./css/quiz.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
 </head>
