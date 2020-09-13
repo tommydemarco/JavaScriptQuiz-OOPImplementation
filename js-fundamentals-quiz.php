@@ -9,11 +9,11 @@
     <?php include 'head.php' ?>
     
     <div class="row pt-5">
-      <div class="col-12 text-center">
+      <div class="col-12 text-center invisible-title">
         <h1 id="titolo-quiz" class="text-light pt-5">JS Fundamentals Quiz</h1>
         <h4 class="text-light">The fundamentals of JavaScript</h4>
       </div>
-      <div class="col-lg-11 mx-auto">
+      <div class="col-lg-11 mx-auto invisible-element">
           <div class="row py-5">
               <div class="col-lg-12 mx-auto">
                   <div class="card rounded-0 border-0 shadow">

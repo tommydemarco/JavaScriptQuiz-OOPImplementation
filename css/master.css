@@ -107,3 +107,9 @@ body {background-image: url('../img/coding-background.jpg'); background-size: co
 footer a {color:#27ae60}
 footer a:hover {color:#2ecc71; text-decoration: none;}
 .footer-title {font-family: 'Squada One', cursive; font-size:28px; color:#555;}
+
+
+/*=== index animation ===*/
+.invisible-element {opacity:0}
+.animate__animated {opacity:1}
+.invisible-title {opacity:0}

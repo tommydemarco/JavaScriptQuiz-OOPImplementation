@@ -7,3 +7,18 @@ $(function () {
         }
     });
 });
+
+//animation part
+(function(){
+    document.addEventListener("DOMContentLoaded", function(){
+        var invisibleElements = document.querySelectorAll('.invisible-element');
+        var i = 0;
+        for (i; i<invisibleElements.length; i++){
+            invisibleElements[i].classList.add('animate__animated')
+            invisibleElements[i].classList.add('animate__backInUp')
+        }
+        var invisibleTitle = document.querySelector('.invisible-title');
+        invisibleTitle.classList.add('animate__animated')
+        invisibleTitle.classList.add('animate__backInDown')
+    });
+})();
