@@ -40,7 +40,18 @@ var MAINAPP = (function(nsp, $, domU, strU) {
     },
 
     initQuiz = function() {
-        loadJSON("./JSON/content.json");
+        var quizN = document.getElementById('titolo-quiz').innerText
+        console.log(quizN)
+        if (quizN === "OOP approaches Quiz"){
+            loadJSON("./JSON/first-quiz.json");
+        } else if (quizN === "DOM Interactions Quiz") {
+            loadJSON("./JSON/second-quiz.json");
+        } else if (quizN === "JS Fundamentals Quiz") {
+            loadJSON("./JSON/third-quiz.json");
+        } else {
+            return
+        }
+        
     };
 
     

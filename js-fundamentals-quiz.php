@@ -10,8 +10,8 @@
     
     <div class="row pt-5">
       <div class="col-12 text-center">
-        <h1 id="titolo-quiz" class="text-light pt-5">OOP approaches Quiz</h1>
-        <h4 class="text-light">Object Oriented JavaScript</h4>
+        <h1 id="titolo-quiz" class="text-light pt-5">JS Fundamentals Quiz</h1>
+        <h4 class="text-light">The fundamentals of JavaScript</h4>
       </div>
       <div class="col-lg-11 mx-auto">
           <div class="row py-5">

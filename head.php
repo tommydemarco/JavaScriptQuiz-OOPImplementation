@@ -22,10 +22,10 @@
                 
                 <div id="navbarSupportedContent" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a href="index.php" class="nav-link text-uppercase">Home <span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase">Privacy policy</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase">Cookie Policy</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase">Contact developer</a></li>
+                        <li class="nav-item active active-link"><a href="index.php" class="nav-link text-uppercase">Home <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="https://github.com/tommydemarco" target="_blank" class="nav-link text-uppercase">View on GitHub</a></li>
+                        <li class="nav-item"><a href="https://www.w3schools.com/js/default.asp" target="_blank" class="nav-link text-uppercase">Study resources</a></li>
+                        <li class="nav-item"><a href="https://tommasodemarco.com/contact-me.php" target="_blank" class="nav-link text-uppercase">Contact developer</a></li>
                     </ul>
                 </div>
             </div>

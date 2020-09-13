@@ -1,0 +1,57 @@
+{
+    "buttonText": "Submit",
+    "questions": [
+        {
+            "id": "q03",
+            "type": "true-false",
+            "questionText": "Objects are variables as well.",
+            "distractors": ["true", "false"],
+            "correctResp": "true",
+            "feedback": {
+                "noAnswer": "Please provide an answer first.",
+                "correctAnswer": "Well done! That is the correct response.",
+                "wrongAnswer": "Sorry, that is inccorrect."
+            },
+            "weight": 1
+        },
+        {
+            "id": "q01",
+            "type": "fill-in",
+            "questionText": "You can access object properties in two ways, write them down below",
+            "distractors": [],
+            "correctResp": "objectName.propertyName, objectName[\"propertyName\"]", 
+            "feedback": {
+                "noAnswer": "Please provide an answer first.",
+                "correctAnswer": "Well done! That is the correct response.",
+                "wrongAnswer": "Not quite. Try again."
+            },
+            "weight": 1
+        },
+        {
+            "id": "q02",
+            "type": "multi-choice",
+            "questionText": "It is said that Objects have what?",
+            "distractors": ["Properties only", "Methods and properties", "Methods only", "Methods, Properties and variables"],
+            "correctResp": "Methods and properties",
+            "feedback": {
+                "noAnswer": "Please provide an answer first.",
+                "correctAnswer": "Well done! That is the correct response.",
+                "wrongAnswer": "Sorry, that is inccorrect. let allows you to declare block-scoped variables."
+            },
+            "weight": 1
+        },
+        {
+            "id": "q03",
+            "type": "true-false",
+            "questionText": "If you access a method without the () parentheses, it will return the function definition.",
+            "distractors": ["true", "false"],
+            "correctResp": "true",
+            "feedback": {
+                "noAnswer": "Please provide an answer first.",
+                "correctAnswer": "Well done! That is the correct response.",
+                "wrongAnswer": "Sorry, that is inccorrect."
+            },
+            "weight": 1
+        }
+    ]
+}

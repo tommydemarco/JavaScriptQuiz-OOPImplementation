@@ -9,7 +9,7 @@ h1, h2, h3, h4 {font-weight:300;}
 }
 
 .navbar .nav-link {
-    color: #fff;
+    color: lightgrey;
 
 }
 
@@ -30,7 +30,7 @@ body {background-image: url('../img/coding-background.jpg'); background-size: co
 
 /* Change navbar styling on scroll */
 .navbar.active {
-    background: #fff;
+    background: rgb(255, 255, 255, 0.97);
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -100,3 +100,10 @@ body {background-image: url('../img/coding-background.jpg'); background-size: co
 .warning {color:#f1c40f}
 .success {color:#27ae60}
 .error {color:#e74c3c}
+
+/*=== footer ===*/
+.page-footer {background-color:rgb(255, 255, 255, 0.92)}
+.footer-copyright {background-color:rgba(205, 211, 212, 0.92)}
+footer a {color:#27ae60}
+footer a:hover {color:#2ecc71; text-decoration: none;}
+.footer-title {font-family: 'Squada One', cursive; font-size:28px; color:#555;}

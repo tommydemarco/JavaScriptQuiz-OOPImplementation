@@ -8,10 +8,15 @@
     
     <!-- including the head -->
     <?php include 'head.php' ?>
+
+    <style>
+      .active-link a {color:white!important}
+      .active .active-link a {color:black!important}
+    </style>
     
     <div class="row pt-5">
       <div class="col-12 text-center">
-        <h1 class="text-light pt-4">Test your JavaScript Knowledge</h1>
+        <h1 class="text-light pt-5">Test your JavaScript Knowledge</h1>
         <h4 class="text-light">Pick a topic to start the quiz</h4>
       </div>
         <div class="col-lg-11 mt-2 mx-auto">
@@ -22,7 +27,7 @@
                     <img src="./img/oop.jpg" alt="" class="w-100">
                     <figcaption class="px-4 py-3 bg-white shadow-sm">
                       <h3 class="h5 mb-1 font-weight-bold font-italic">OOP approaches</h3>
-                      <a href="object-oriented-quiz.php" class="navigation btn-next btn btn-custom-2 mt-2 test-button">Take quiz</a>
+                      <a href="./object-oriented-quiz.php" class="navigation btn-next btn btn-custom-2 mt-2 test-button">Take quiz</a>
                     </figcaption>
                   </figure>
                 </div>
@@ -33,7 +38,7 @@
                     <img src="./img/dom.jpg" alt="" class="w-100">
                     <figcaption class="px-4 py-3 bg-white shadow-sm">
                       <h2 class="h5 mb-1 font-weight-bold font-italic">DOM Interactions</h2>
-                      <a href="#" class="navigation btn-next btn btn-custom-2 mt-2 test-button">Take quiz</a>
+                      <a href="./dom-interactions-quiz.php" class="navigation btn-next btn btn-custom-2 mt-2 test-button">Take quiz</a>
                     </figcaption>
                   </figure>
         
@@ -44,7 +49,7 @@
                     <img src="./img/fundamentals.jpg" alt="" class="w-100">
                     <figcaption class="px-4 py-3 bg-white shadow-sm">
                       <h2 class="h5 mb-1 font-weight-bold font-italic">JS Fundamentals</h2>
-                      <a href="#" class="navigation btn-next btn btn-custom-2 mt-2 test-button">Take quiz</a>
+                      <a href="./js-fundamentals-quiz.php" class="navigation btn-next btn btn-custom-2 mt-2 test-button">Take quiz</a>
                     </figcaption>
                   </figure>
         
