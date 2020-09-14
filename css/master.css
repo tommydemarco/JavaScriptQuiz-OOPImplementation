@@ -93,6 +93,7 @@ body {background-image: url('../img/coding-background.jpg'); background-size: co
 #m-container .btn-submit-custom:hover {background: #3498db; cursor: pointer;}
 #m-container .btn-submit-custom:active {border: 0px;}
 #button-navigation {width:fit-content; float:right}
+#m-container #btn-again {display:none}
 
 /*=== results interface ===*/
 #results-interface {display:none}

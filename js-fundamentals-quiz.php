@@ -81,6 +81,7 @@
                             <div id="button-navigation" class="mt-2">
                                 <a class="navigation btn-prev btn btn-custom-1 mr-2">Previous</a>
                                 <a class="navigation btn-next btn btn-custom-2">Next</a>
+                                <button onclick="reloadTheQuiz()" id="btn-again" class="navigation btn btn-custom-2">Try again</button>
                             </div>
                           </div>
 

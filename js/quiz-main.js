@@ -225,6 +225,8 @@ var MAINAPP = (function(nsp, $, domU, strU) {
                 document.getElementById('results-interface').style.display = "block";
                 document.getElementsByClassName('btn-next')[0].innerHTML = "Home page";
                 document.getElementsByClassName('btn-next')[0].style.display = "none";
+                document.getElementsByClassName('btn-prev')[0].style.display = "none";
+                document.getElementById('btn-again').style.display = "block";
                 let esits = document.getElementsByClassName('esit-results');
                 let resultsArray = [];
                 for (i = 0; i < questionsArray.length; i++){
@@ -296,3 +298,9 @@ var MAINAPP = (function(nsp, $, domU, strU) {
     return nsp;
     
 })(MAINAPP || {}, UTIL.dom.$, UTIL.dom, UTIL.string);
+
+
+//reloading the quiz
+function reloadTheQuiz(){
+    location.reload()
+}

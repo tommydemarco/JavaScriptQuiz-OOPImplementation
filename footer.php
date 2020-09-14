@@ -14,9 +14,10 @@
         <!-- Content -->
         <h5 class="text-uppercase footer-title">A JS personal Project</h5>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
-          repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
-          harum esse fugiat. Itaque, culpa?
+          Welcome to this personal project developed with a few advanced JavaScript concepts.
+          It's purpose is to give a demonstration of my familiarity with the language and its 
+          more complex implementations. </br> The code is also available on GitHub, and you are more than welcome
+          to have a look at it, just <a href="https://github.com/tommydemarco" target="_blank">visit my profile</a>.
         </p>
 
       </div>
@@ -30,9 +31,10 @@
         <!-- Content -->
         <h5 class="text-uppercase footer-title">How does it work?</h5>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum
-          commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id
-          excepturi hic.
+          The functioning of the test depends on the loading of a JSON file 
+          for the specific quiz that contains the question body and answers and other relevant information 
+          for the functioning of the test. </br> All these questions are handled as objects and the answers given
+          by the user are passed to the object as a property, later used to calculate the score. 
         </p>
 
       </div>
@@ -46,10 +48,10 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">Personal project by 
-    <a href="https://tommasodemarco.com/">Tommaso De Marco</a>
+    <a href="../index.php">Tommaso De Marco</a>
     <div style="padding-top:8px">
-        <a href="https://tommasodemarco.com/">Cookie Policy</a>
-        <a href="https://tommasodemarco.com/">Privacy Policy</a>
+        <a href="../cookie-policy.php">Cookie Policy</a>
+        <a href="../privacy-policy.php">Privacy Policy</a>
     </div>
   </div>
   <!-- Copyright -->
@@ -64,10 +66,10 @@
     <script src="./js/main.js"></script>
 
     <!-- quiz related JS -->
-    <script src="js/string-utilities.js"></script>
-    <script src="js/dom-utilities.js"></script>
-    <script src="js/general-utilities.js"></script>
-    <script src="js/quiz-main.js"></script>
+    <script src="./js/string-utilities.js"></script>
+    <script src="./js/dom-utilities.js"></script>
+    <script src="./js/general-utilities.js"></script>
+    <script src="./js/quiz-main.js"></script>
 
 </body>
 </html>

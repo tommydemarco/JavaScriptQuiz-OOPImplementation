@@ -2,7 +2,7 @@
     "buttonText": "Submit",
     "questions": [
         {
-            "id": "q03",
+            "id": "q01",
             "type": "true-false",
             "questionText": "Objects are variables as well.",
             "distractors": ["true", "false"],
@@ -15,7 +15,7 @@
             "weight": 1
         },
         {
-            "id": "q01",
+            "id": "q02",
             "type": "fill-in",
             "questionText": "You can access object properties in two ways, write them down below",
             "distractors": [],
@@ -28,7 +28,7 @@
             "weight": 1
         },
         {
-            "id": "q02",
+            "id": "q03",
             "type": "multi-choice",
             "questionText": "It is said that Objects have what?",
             "distractors": ["Properties only", "Methods and properties", "Methods only", "Methods, Properties and variables"],
@@ -41,7 +41,7 @@
             "weight": 1
         },
         {
-            "id": "q03",
+            "id": "q04",
             "type": "true-false",
             "questionText": "If you access a method without the () parentheses, it will return the function definition.",
             "distractors": ["true", "false"],
