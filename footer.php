@@ -50,7 +50,7 @@
   <div class="footer-copyright text-center py-3">Personal project by 
     <a href="../index.php">Tommaso De Marco</a>
     <div style="padding-top:8px">
-        <a href="../cookie-policy.php">Cookie Policy</a>
+        <a href="../cookies-policy.php">Cookie Policy</a>
         <a href="../privacy-policy.php">Privacy Policy</a>
     </div>
   </div>

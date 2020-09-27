@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript quiz</title>
+    <title>JavaScript Quiz</title>
     
     <!-- including the head -->
     <?php include 'head.php' ?>

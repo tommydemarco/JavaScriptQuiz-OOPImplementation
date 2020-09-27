@@ -11,7 +11,7 @@
     <div class="row pt-5">
       <div class="col-12 text-center invisible-title">
         <h1 id="titolo-quiz" class="text-light pt-5">OOP approaches Quiz</h1>
-        <h4 class="text-light">Object Oriented JavaScript</h4>
+        <h4 class="text-light">OOP in JavaScript Quiz</h4>
       </div>
       <div class="col-lg-11 mx-auto invisible-element">
           <div class="row py-5">
